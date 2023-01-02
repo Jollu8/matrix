@@ -1,6 +1,6 @@
 #include <vector>
 #include "gtest/gtest.h"
-#include "infinite_matrix.hpp"
+#include "infinite_matrix.h"
 
 TEST(TEST_MATRIX, task_example)
 {
