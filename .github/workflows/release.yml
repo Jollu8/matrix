@@ -3,8 +3,8 @@ name: 'matrix'
 on:
   push:
     branches:
-      - main
-      - feature/github_actions
+      - "*"
+      - "v*"
 
 jobs:
   build:
