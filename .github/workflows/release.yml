@@ -69,7 +69,7 @@ jobs:
       - run: sudo apt-get install doxygen -y
       - run: sudo apt-get install graphviz
       - run: doxygen ./docs/Doxyfile
-      - run: git add ./docs/html
+      - run: git add ./docs/index.html
       - run: git commit -a -m "Generate docs"
       #- run: git remote add origin https://github.com/Jollu8
       - run: git push --force origin gh-pages
